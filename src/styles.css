@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+body {
+  font-family: Khula;
+  background-image: url(https://wallpapernfl.com/wp-content/uploads/2019/08/HD-Backgrounds-NFL-Football.jpg);
+  background-position: center;
+  background-color: gray;
+}
+
+#app {
+  font-family: Khula;
+  text-align: center;
+  background-color: rgb(243, 237, 237);
+  color: black;
+  height: 60%;
+  width: 50%;
+  margin: auto;
+  position: relative;
+}
+
+h1 {
+  background: #57f5f7;
+  font-weight: 500px;
+  padding: 10px;
+}
+
+input {
+  -ms-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+button {
+  width: 22%;
+  /* background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%); */
+  background-color: #383332;
+  border-radius: 0;
+  /* border: 1px solid #057fd0; */
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 500px;
+  padding: 0px 24px;
+  text-align: center;
+}
+
+Button:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+Button:active {
+  position: relative;
+  color: black;
+  top: 1px;
+}

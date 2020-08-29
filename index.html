@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>The New SPARQ Calculator</h1>
+      <h2 id="rating-display">Athletic Rating: 0</h2>
+      <h2>Measurements:</h2>
+      <div>
+        <input id="fourty" type="text" placeholder="Enter 40 time" />
+        <button id="fourtyButton" type="submit">40-yd Dash</button>
+        <div class="score" id="fourtyRate">40 Score:</div>
+      </div>
+      <div>
+        <input id="vertical" type="text" placeholder="Enter Vertical" />
+        <button id="vertButton" type="submit">Vertical</button>
+        <div class="score" id="vertRate">Vertical Score:</div>
+      </div>
+      <div>
+        <input id="shuttle" type="text" placeholder="Enter 20-yd shuttle" />
+        <button id="shuttleButton" type="submit">Shuttle</button>
+        <div id="shuttleRate">Shuttle Score:</div>
+      </div>
+      <div>
+        <input id="bench" type="text" placeholder="Enter Bench Max" />
+        <button id="benchButton" type="submit">Bench</button>
+        <div id="benchRate">Bench Score:</div>
+      </div>
+      <div>
+        <input id="squat" type="text" placeholder="Enter Squat Max" />
+        <button id="squatButton" type="submit">Squat</button>
+        <div id="squatRate">Squat Score:</div>
+      </div>
+      <div>
+        <input id="clean" type="text" placeholder="Enter Power Clean Max" />
+        <button id="cleanButton" type="submit">Clean</button>
+        <div id="cleanRate">Hang/Power Clean Score:</div>
+      </div>
+      <br />
+      <button id="calculate" type="submit">Calculate</button>
+      <button id="reset" type="submit">Reset</button>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
